@@ -1,0 +1,32 @@
+.artist-profiles-wrapper {
+    width: 100%;
+   
+ }
+ .public-events-title{
+     text-align: center;
+ }
+ .artists-list-wrapper {
+    display: grid;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    grid-template-columns: 30% 30% 30% ;
+    grid-gap: 23px;
+    background-color: #fff;
+   
+  }
+
+  /* a[ id= "artists" ]:target ~ #main article.panel {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+    }
+    
+    a[ id= "galeria" ]:target ~ #main article.panel {
+    -webkit-transform: translateY( -500px );
+    transform: translateY( -500px );
+    }
+    a[ id= "contacto" ]:target ~ #main article.panel {
+    -webkit-transform: translateY( -1000px );
+    transform: translateY( -1000px );
+    } */
